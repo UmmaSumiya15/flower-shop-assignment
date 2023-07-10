@@ -7,9 +7,7 @@
 .btn-primary{
   border-radius: 8px;
   background: #E55473; 
-  /* display: inline-flex; */
   padding: 15px 25px;
-  /* align-items: flex-start; */
   gap: 10px;
   border: 0;
   color: #FFF;
@@ -63,7 +61,7 @@ margin: 35px 130px 0 0;
 }
 
 /* style for main */
-#sec-description{
+.sec-description{
   text-align: center ;
   margin: 24px  auto 48px auto;
 }
@@ -78,12 +76,12 @@ margin: 35px 130px 0 0;
 .flower-tree-sec{
   display: flex;
   justify-content: space-around;
-  gap: 20px;
+  gap: 10px;
 }
 .flower-tree img{
   width: 220px;
   height: 290px;
-  padding: 70px 45px 0 45px;
+  padding: 70px 55px 0 55px;
 }
 #tree-1{
   border-radius: 300px 300px 0px 0px;
@@ -105,4 +103,38 @@ font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
 margin: 30px 0;
+}
+.hot-deal{
+  border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin: 0;
+padding: 0;
+
+
+}
+.hot-deal-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 250px 30px;
+}
+
+.hot-deal-img{
+  width: 220px;
+  height: 290px;
+}
+.deal-title{
+  color: #272727;
+font-family: Lato;
+font-size: 30px;
+font-weight: 800;
+}
+span{
+  color: #E55473;
+}
+.hot-deal-content .btn-center{
+  margin-left: 150px;
+}
+.sec-description {
+  margin-bottom: 20px;
 }
