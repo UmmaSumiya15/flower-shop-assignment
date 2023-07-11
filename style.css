@@ -230,13 +230,14 @@ footer{
 .review-content{
   display: flex;
   justify-content: space-around;
+  margin: 0 80px;
 }
 .review img{
   height: 100px;
   width: 100px;
   border-radius: 50%;
   padding: 5px;
-  box-shadow: 0 0 10px 3px #E55473;
+  box-shadow: 0 0 10px 5px #cc8194;
   margin: 15px;
 }
 .review{
@@ -245,8 +246,11 @@ footer{
   width: 250px;
   border-radius: 8px;
   padding: 5px;
-  box-shadow: 0 0 20px 3px #f3b5c2;
+  box-shadow: 0 0 20px 8px #979192ad;
   background-color: #fff;
+}
+.review:hover{
+  box-shadow: 0 0 20px 8px #db8c9aad;
 }
 
 .review-sections{
@@ -256,7 +260,7 @@ footer{
   border-radius: 8px;
 }
 .review-title{
-  padding: 50px;
+  padding: 60px;
 }
 .review-btn{
   margin: 40px;
