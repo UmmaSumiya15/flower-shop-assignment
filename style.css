@@ -31,7 +31,13 @@ section{
   margin: 0 160px;
 }
 
-
+.sec-title{
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 110px;
+}
 
 /* style for header */
 .header{
@@ -66,13 +72,7 @@ font-weight: 900;
   text-align: center ;
   margin: 24px  auto 48px auto;
 }
-.sec-title{
-  color: #272727;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 800;
-  margin-top: 150px;
-}
+
 
 .flower-tree-sec{
   display: flex;
@@ -105,10 +105,12 @@ line-height: 35px;
 text-decoration-line: underline;
 margin: 30px 0;
 }
+
+/* style for hot deal section */
 .hot-deal{
   border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
-margin: 150px 0;
+margin: 110px 0 0;
 padding: 0;
 
 
